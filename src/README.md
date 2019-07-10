@@ -1,0 +1,1 @@
+Homework Excercise for checking if list with elements of generic types is palindrome or not
