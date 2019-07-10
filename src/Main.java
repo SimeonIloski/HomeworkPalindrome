@@ -7,17 +7,24 @@ public class Main {
     public static void main(String[] args) {
 
         Deque<String> listStrings;
+
         // filling the deque with strings  for test
         listStrings=fillListStrings();
+
         //filling the deque with integers for test
         Deque<Integer> listInteger;
         listInteger=fillListIntegers();
+
         //filling the deque with custom create class (object from CustomClass)
         Deque<CustomClass> listCustomClass;
         listCustomClass=fillListCustomClass();
 
         //call the method isPalindrome to check is the list(deque) a palindrome(first equlas to last element and so on) for 3 deques with different element types
+
+        // boolean b=isPalindrome(listStrings);
+       // boolean b=isPalindrome(listInteger);
         boolean b=isPalindrome(listCustomClass);
+
         if(b){
             System.out.println("Palindrome");
         }
